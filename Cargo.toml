@@ -1,0 +1,30 @@
+[package]
+authors = ["Nerivec"]
+edition = "2024"
+name = "serialport_napi_rs"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi-derive = { version = "3.0" }
+napi = { version = "3.0", default-features = false, features = [
+    "napi10",
+    "dyn-symbols",
+    "tokio_rt",
+    "tokio_macros",
+    "tokio_io_util",
+    "tokio_sync",
+] }
+tokio-serial = "5"
+
+[build-dependencies]
+napi-build = { version = "2" }
+
+[profile.release]
+lto = true
+strip = "symbols"
+opt-level = 3
+panic = "abort"
+codegen-units = 1

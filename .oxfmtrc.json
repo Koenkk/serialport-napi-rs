@@ -1,0 +1,8 @@
+{
+    "$schema": "./node_modules/oxfmt/configuration_schema.json",
+    "semi": true,
+    "trailingComma": "all",
+    "arrowParens": "always",
+    "sortPackageJson": false,
+    "ignorePatterns": ["target", ".yarn", "index.js", ".yarnrc.yml"]
+}

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "target": "ESNext",
+        "moduleResolution": "nodenext",
+        "module": "NodeNext",
+        "types": ["node"],
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "rewriteRelativeImportExtensions": true,
+        "erasableSyntaxOnly": true,
+        "verbatimModuleSyntax": true
+    },
+    "include": ["."],
+    "exclude": ["node_modules"]
+}
