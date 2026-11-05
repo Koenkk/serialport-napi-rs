@@ -273,3 +273,5 @@ jobs:
             - name: publish on npm with OIDC
               run: |
                   npm publish --provenance --access public
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
