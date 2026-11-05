@@ -1,6 +1,6 @@
 {
     "name": "@koenkk/serialport-napi-rs",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "NAPI-RS addon for serialport (using tokio-serial), with a simple, modern, async API for Node.js v24 or later.",
     "author": "Nerivec",
     "type": "module",
@@ -66,16 +66,16 @@
         "prepare": "husky"
     },
     "devDependencies": {
-        "@emnapi/core": "^2.0.0-beta.2",
-        "@emnapi/runtime": "^2.0.0-beta.2",
-        "@napi-rs/cli": "^3.10.9",
-        "@types/node": "^26.6.5",
-        "emnapi": "^2.0.0-beta.2",
+        "@emnapi/core": "^2.0.0-beta.3",
+        "@emnapi/runtime": "^2.0.0-beta.3",
+        "@napi-rs/cli": "^3.10.12",
+        "@types/node": "^26.6.6",
+        "emnapi": "^2.0.0-beta.3",
         "husky": "^9.1.7",
         "lint-staged": "^17.6.0",
         "npm-run-all2": "^9.0.4",
-        "oxfmt": "^0.75.0",
-        "oxlint": "^1.90.0",
+        "oxfmt": "^0.76.0",
+        "oxlint": "^1.91.0",
         "typescript": "^7.0.2"
     },
     "lint-staged": {

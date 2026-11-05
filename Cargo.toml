@@ -8,8 +8,8 @@ publish = false
 crate-type = ["cdylib"]
 
 [dependencies]
-napi-derive = { version = "3.6" }
-napi = { version = "3.15", default-features = false, features = [
+napi-derive = { version = "3.7" }
+napi = { version = "3.16", default-features = false, features = [
     "napi10",
     "dyn-symbols",
     "tokio_rt",
